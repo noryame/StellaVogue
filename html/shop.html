@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StellaVogue - Shop</title>
+    <link rel="stylesheet" href="../css/shop.css">
+</head>
+<body>
+   </div>
+   <div class="container">
+    <h2>Choose a category:</h2>
+    <section class="cards">
+      <!-- card 1 -->
+      <div class="card" id="card1">
+        <div class="card1content">
+          <img src="../res/men.jpg" alt="men">
+          <button onclick="navigateToMen()">Men</button>
+        </div>
+      </div>
+  
+      <!-- card 2 -->
+      <div class="card" id="card2">
+        <div class="card2content">
+          <img src="../res/women.jpg" alt="women">
+          <button onclick="navigateToWomen()">Women</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+   <script>
+      document.getElementById('start-button').addEventListener('click', function() {
+         document.querySelector('.content').classList.add('hidden');
+         document.querySelector('.options').classList.remove('hidden');
+      });
+
+      function navigateToMen() {
+         window.location.href = "../html/men.html";
+      }
+
+      function navigateToWomen() {
+         window.location.href = "../html/women.html";
+      }
+   </script>
+</body>
+</html>

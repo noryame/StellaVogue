@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StellaVogue - Men</title>
+    <link rel="stylesheet" href="../css/men.css">
+</head>
+<body>
+    <div class="container">
+       <h3>There is a wide variety of clothing types in stellavogue, be sure to choose one of the three types offered for the men's category </h3>
+       <section class="men"> 
+          <div class="types" id="shirt">
+             <div class="type1">
+                <img src="../res/shirt-women.jpg" alt="shirts">
+                <button onclick="navigateToShirts()">Shirts</button>
+             </div>
+          </div>
+          <div class="types" id="Jacket">
+             <div class="type2">
+                <img src="../res/jacket-women.jpg" alt="jacket">
+                <button onclick="navigateToJackets()">Jackets</button>
+             </div>
+          </div>
+          <div class="types" id="pants">
+             <div class="type3">
+                <img src="../res/pants-women.jpg" alt="pants">
+                <button onclick="navigateToPants()">Pants</button>
+             </div>
+          </div>
+       </section>
+    </div> 
+   <script>
+      function navigateToShirts() {
+         window.location.href = "../html/women-shirts.html";
+      }
+
+      function navigateToPants() {
+         window.location.href = "../html/women-pants.html";
+      }
+      function navigateToJackets() {
+         window.location.href = "../html/women-jackets.html";
+      }
+   </script>
+
+ 
+ </head>
+ </body>
