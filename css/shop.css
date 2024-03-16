@@ -58,18 +58,18 @@ body {
     height: auto; 
   }
    button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      background-color: #adaf4cc2;
-      color: white;
-      cursor: pointer;
-   }
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #af9d4c;
+    color: white;
+    cursor: pointer;
+}
 
-   button:hover {
-      background-color: #adaf4cc2 ;
-   }
+button:hover {
+    background-color: #ff1493;
+}
    @media screen and (max-width: 768px) {
     .container {
       width: 75%; 
